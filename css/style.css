@@ -1,0 +1,158 @@
+/**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+/* End of Reset */
+/* Start of Custom Styles */
+
+body{
+font-family: 'Poiret One', cursive;
+}
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #2A3343;
+}
+
+a:active {
+    text-decoration: underline;
+}
+h1{
+font-size: 1.75em;
+letter-spacing: 2px;
+font-weight: 200;
+color: black;
+}
+h2{
+font-size: 1.33em;
+letter-spacing: 1px;
+font-weight: 500;
+color: black;
+}
+
+.top-navigation{
+	width: 100%;
+	height: 2em;
+	margin-top: .25em;
+	margin-bottom: .25em;
+	text-align: center;
+	overflow: hidden;
+	background-color: #BBAFC5;	
+}
+.top-navigation .links li{
+    display: inline-block;
+}
+.sidebar{
+	width: 120px;
+	float: left;
+	margin-top: .25em;
+	background-color: #EDBBB3;
+}
+.links{
+	text-align: center;
+}
+.bricks{
+	float: left;
+	width: 85%;
+}
+.brick1{
+	float: left;
+	width: 60%;
+	height: 120px;
+	margin-top: .25em;
+	margin-bottom: .25em;
+	overflow: hidden;
+	display: inline-block;
+	background-color: #5D9BD7;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.brick2{
+	float: right;
+	width: auto;
+	height: 120px;
+	min-width: 39%;
+	margin-top: .25em;
+	margin-bottom: .25em;
+	overflow: hidden;
+	display: inline-block;
+	background-color: #E1E9F6;
+}
+.brick3{
+	width: 49.5%;
+	height: 120px;
+	margin-top: .25em;
+	margin-bottom: .25em;
+	overflow: hidden;
+	display: inline-block;
+	background-color: #E1C7B2;
+}
+.brick4{
+	min-width: 49.5%;
+	width: auto;
+	height: 120px;
+	display: inline-block;
+	overflow: hidden;
+	background-color: #BBAFC5;
+}
+.brick5{
+	float: left;
+	width: 40%;
+	height: 120px;
+	margin-top: .25em;
+	margin-bottom: .25em;
+	overflow: hidden;
+	display: inline-block;
+	background-color: #E1E9F6;
+}
+.brick6{
+	float: right;
+	width: auto;
+	height: 120px;
+	min-width: 59%;
+	margin-top: .25em;
+	margin-bottom: .25em;
+	overflow: hidden;
+	display: inline-block;
+	background-color: #2A3343;
+}
+
