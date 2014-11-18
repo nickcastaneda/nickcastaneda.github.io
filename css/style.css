@@ -58,7 +58,7 @@ a:active {
 }
 h1{
 font-size: 1.75em;
-letter-spacing: 2px;
+letter-spacing: 3px;
 font-weight: 200;
 color: black;
 }
@@ -80,6 +80,8 @@ color: black;
 }
 .top-navigation .links li{
     display: inline-block;
+    margin-left: .25em;
+    margin-right: .25em;
 }
 .sidebar{
 	width: 120px;
@@ -155,4 +157,24 @@ color: black;
 	display: inline-block;
 	background-color: #2A3343;
 }
-
+@media screen and (max-width: 800px) {
+ 
+	h1{
+		font-size: 1.em;
+		letter-spacing: 3px;
+		font-weight: 200;
+		color: black;
+	}
+	h2{
+		font-size: .75em;
+		letter-spacing: 1px;
+		font-weight: 500;
+		color: black;
+	}
+	.top-navigation{
+	 	display: none;
+	}
+	.sidebar{ 
+	 	display: none;
+    }
+}
