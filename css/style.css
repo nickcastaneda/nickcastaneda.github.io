@@ -87,7 +87,9 @@ color: black;
 	width: 120px;
 	float: left;
 	margin-top: .25em;
+	margin-right: .25em;
 	background-color: #EDBBB3;
+
 }
 .links{
 	text-align: center;
@@ -107,6 +109,13 @@ color: black;
 	background-color: #5D9BD7;
     background-size: 100% 100%;
     background-repeat: no-repeat;
+}
+.bricks img {
+   -webkit-transition: all 4s ease-in;
+   -moz-transition: all 4s ease-in;
+   -o-transition: all 4s ease-in;
+   -ms-transition: all 4s ease-in;
+   transition: all 4s ease-in;
 }
 .brick2{
 	float: right;
@@ -157,7 +166,12 @@ color: black;
 	display: inline-block;
 	background-color: #2A3343;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 825px) {
+.sidebar{ 
+	 	display: none;
+    }
+}
+@media screen and (max-width: 400px) {
  
 	h1{
 		font-size: 1.em;
@@ -177,4 +191,63 @@ color: black;
 	.sidebar{ 
 	 	display: none;
     }
+ 	.bricks{
+	float: left;
+	width: auto;
+	}
+	.brick1{
+	width: 120px;
+	height: 120px;
+	margin-top: .1em;
+	margin-bottom: .1em;
+	overflow: hidden;
+	display: inline-block;
+	background-color: #5D9BD7;
+    background-repeat: no-repeat;
+}
+	.brick2{
+	width: auto;
+	height: 120px;
+	margin-top: .1em;
+	margin-bottom: .1em;
+	overflow: hidden;
+	display: inline-block;
+	background-color: #E1E9F6;
+}
+	.brick3{
+	width: 120px;
+	height: 120px;
+	margin-top: .1em;
+	margin-bottom: .1em;
+	overflow: hidden;
+	display: inline-block;
+	background-color: #E1C7B2;
+}
+.brick4{
+	width: auto;
+	height: 120px;
+	display: inline-block;
+	overflow: hidden;
+	background-color: #BBAFC5;
+}
+.brick5{
+	width: 120px;
+	height: 120px;
+	margin-top: .1em;
+	margin-bottom: .1em;
+	overflow: hidden;
+	display: inline-block;
+	background-color: #E1E9F6;
+}
+.brick6{
+	width: auto;
+	height: 120px;
+	min-width: 59%;
+	margin-top: .25em;
+	margin-bottom: .25em;
+	overflow: hidden;
+	display: inline-block;
+	background-color: #2A3343;
+}
+
 }
