@@ -38,7 +38,8 @@ ol, ul {
 /* Start of Custom Styles */
 
 body{
-font-family: 'Poiret One', cursive;
+	font-family: 'Poiret One', cursive;
+	font-size: 16px;
 }
 a:link {
     text-decoration: none;
@@ -58,13 +59,13 @@ a:active {
 }
 h1{
 font-size: 1.75em;
-letter-spacing: 3px;
+letter-spacing: .25em;
 font-weight: 200;
 color: black;
 }
 h2{
 font-size: 1.33em;
-letter-spacing: 1px;
+letter-spacing: .1em;
 font-weight: 500;
 color: black;
 }
@@ -76,7 +77,8 @@ color: black;
 	margin-bottom: .25em;
 	text-align: center;
 	overflow: hidden;
-	background-color: #BBAFC5;	
+	background-color: #BBAFC5;
+	font-size: 1.75em;
 }
 .top-navigation .links li{
     display: inline-block;
@@ -84,7 +86,7 @@ color: black;
     margin-right: .25em;
 }
 .sidebar{
-	width: 120px;
+	width: 15%;
 	float: left;
 	margin-top: .25em;
 	margin-right: .25em;
@@ -94,14 +96,21 @@ color: black;
 .links{
 	text-align: center;
 }
+.coolinks{
+	padding: .33em;
+}
+.social{
+	padding: .33em;
+}
+
 .bricks{
 	float: left;
-	width: 85%;
+	width: 83%;
 }
 .brick1{
 	float: left;
 	width: 60%;
-	height: 120px;
+	height: 7.5em;
 	margin-top: .25em;
 	margin-bottom: .25em;
 	overflow: hidden;
@@ -110,17 +119,11 @@ color: black;
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
-.bricks img {
-   -webkit-transition: all 4s ease-in;
-   -moz-transition: all 4s ease-in;
-   -o-transition: all 4s ease-in;
-   -ms-transition: all 4s ease-in;
-   transition: all 4s ease-in;
-}
+
 .brick2{
 	float: right;
 	width: auto;
-	height: 120px;
+	height: 7.5em;
 	min-width: 39%;
 	margin-top: .25em;
 	margin-bottom: .25em;
@@ -130,7 +133,7 @@ color: black;
 }
 .brick3{
 	width: 49.5%;
-	height: 120px;
+	height: 7.5em;
 	margin-top: .25em;
 	margin-bottom: .25em;
 	overflow: hidden;
@@ -140,7 +143,7 @@ color: black;
 .brick4{
 	min-width: 49.5%;
 	width: auto;
-	height: 120px;
+	height: 7.5em;
 	display: inline-block;
 	overflow: hidden;
 	background-color: #BBAFC5;
@@ -148,7 +151,7 @@ color: black;
 .brick5{
 	float: left;
 	width: 40%;
-	height: 120px;
+	height: 7.5em;
 	margin-top: .25em;
 	margin-bottom: .25em;
 	overflow: hidden;
@@ -158,7 +161,7 @@ color: black;
 .brick6{
 	float: right;
 	width: auto;
-	height: 120px;
+	height: 7.5em;
 	min-width: 59%;
 	margin-top: .25em;
 	margin-bottom: .25em;
@@ -166,35 +169,40 @@ color: black;
 	display: inline-block;
 	background-color: #2A3343;
 }
-@media screen and (max-width: 825px) {
+@media screen and (max-width: 51.563em) {
 .sidebar{ 
 	 	display: none;
     }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 25em) {
  
 	h1{
-		font-size: 1.em;
+		font-size: 1em;
 		letter-spacing: 3px;
 		font-weight: 200;
 		color: black;
 	}
+
 	h2{
 		font-size: .75em;
 		letter-spacing: 1px;
 		font-weight: 500;
 		color: black;
 	}
+
 	.top-navigation{
 	 	display: none;
 	}
+
 	.sidebar{ 
 	 	display: none;
     }
+
  	.bricks{
 	float: left;
 	width: auto;
 	}
+
 	.brick1{
 	width: 120px;
 	height: 120px;
@@ -204,7 +212,8 @@ color: black;
 	display: inline-block;
 	background-color: #5D9BD7;
     background-repeat: no-repeat;
-}
+	}
+
 	.brick2{
 	width: auto;
 	height: 120px;
@@ -213,7 +222,8 @@ color: black;
 	overflow: hidden;
 	display: inline-block;
 	background-color: #E1E9F6;
-}
+	}
+
 	.brick3{
 	width: 120px;
 	height: 120px;
@@ -222,15 +232,17 @@ color: black;
 	overflow: hidden;
 	display: inline-block;
 	background-color: #E1C7B2;
-}
-.brick4{
+	}
+
+	.brick4{
 	width: auto;
 	height: 120px;
 	display: inline-block;
 	overflow: hidden;
 	background-color: #BBAFC5;
-}
-.brick5{
+	}
+
+	.brick5{
 	width: 120px;
 	height: 120px;
 	margin-top: .1em;
@@ -238,8 +250,9 @@ color: black;
 	overflow: hidden;
 	display: inline-block;
 	background-color: #E1E9F6;
-}
-.brick6{
+	}
+
+	.brick6{
 	width: auto;
 	height: 120px;
 	min-width: 59%;
@@ -248,6 +261,5 @@ color: black;
 	overflow: hidden;
 	display: inline-block;
 	background-color: #2A3343;
-}
-
+	}
 }
