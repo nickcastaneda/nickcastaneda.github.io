@@ -38,7 +38,7 @@ ol, ul {
 /* Start of Custom Styles */
 
 body{
-	font-family: 'Poiret One', cursive;
+	font-family: 'Josefin Slab', serif;
 	font-size: 16px;
 }
 a:link {
@@ -85,6 +85,7 @@ margin-bottom: .33em;
 	min-width: 24em;
 	margin-top: .25em;
 	margin-bottom: .25em;
+	padding: .25em;
 	text-align: center;
 	overflow: hidden;
 	background-color: #BBAFC5;
@@ -98,14 +99,15 @@ margin-bottom: .33em;
     color: black;
 }
 .sidebar{
-	width: 8.5em;
+	width: 8.6em;
 	height: 40em;
+	padding: .15em;
 	float: left;
 	margin-top: .25em;
 	margin-right: .25em;
 	background-color: #EDBBB3;
 	line-height: 2em;
-	font-weight: 700;
+	font-weight: 600;
 }
 .accolades{
 	text-align: center;
@@ -129,7 +131,7 @@ margin-bottom: .33em;
 
 .bricks{
 	float: left;
-	width: 83%;
+	width: 82%;
 	min-width: 36em;
 }
 .brick1{
@@ -251,19 +253,29 @@ margin-bottom: .33em;
 	overflow: hidden;
 	background-color: #BBAFC5;
 }
-@media screen and (max-width: 51.563em) {
+.content{
+	margin-top: .25em;
+	font-size: 1em;
+}
+.contentwhite{
+	margin-top: .25em
+	font-size: 1em;
+	color: white;
+}
+@media screen and (max-width: 787px){
 .sidebar{ 
 	 	display: none;
     }
 .top-navigation{
 	width: 100%;
-	height: 1.33em;
+	height: 1.65em;
 	margin-top: .25em;
 	margin-bottom: .25em;
+	padding: .25em;
 	text-align: center;
 	overflow: hidden;
 	background-color: #BBAFC5;
-	font-size: 1.25em;
+	font-size: 1.15em;
 }
 .bricks{
 	float: left;
