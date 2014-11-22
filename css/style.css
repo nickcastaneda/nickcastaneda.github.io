@@ -143,7 +143,7 @@ margin-bottom: .33em;
 	overflow: hidden;
 	display: inline-block;
 	background-color: #5D9BD7;
-	background-image: url("../img/Home.jpg");
+	background-image: url('../img/Home.jpg');
     background-size: auto;
     background-repeat: no-repeat;
 }
@@ -167,7 +167,7 @@ margin-bottom: .33em;
 	margin-bottom: .25em;
 	overflow: hidden;
 	display: inline-block;
-	background-image: url("../img/Discover.jpg");
+	background-image: url('../img/Discover.jpg');
     background-size: auto;
     background-position: 30% 20%; 
 }
@@ -189,7 +189,7 @@ margin-bottom: .33em;
 	overflow: hidden;
 	display: inline-block;
 	background-color: #E1E9F6;
-	background-image: url("../img/Develop.jpg");
+	background-image: url('../img/Develop.jpg');
     background-size: auto;
     background-position: 30% 20%; 
 }
@@ -214,7 +214,7 @@ margin-bottom: .33em;
 	margin-bottom: .25em;
 	overflow: hidden;
 	display: inline-block;
- 	background-image: url("../img/Make.jpg");
+ 	background-image: url('../img/Make.jpg');
     background-size: auto;
     background-repeat: no-repeat;
     background-position: 30% 20%;
@@ -240,7 +240,7 @@ margin-bottom: .33em;
 	overflow: hidden;
 	display: inline-block;
 	background-color: #E1C7B2;
-	background-image: url("../img/About.jpg");
+	background-image: url('../img/About.jpg');
     background-size: auto;
     background-position: 10% 20%;
 }
